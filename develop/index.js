@@ -7,10 +7,10 @@ const generateReadme = (answers) => {
   `# ${projectName}
 
   ## Table of Contents
-  - [Application Description] (#application)
+  - [Application Description](#application)
   - [Features](#features)
   - [Future features](#future)
-  - [Installation] (#installation)
+  - [Installation](#installation)
 
   ## Application Description
   
@@ -28,9 +28,9 @@ const generateReadme = (answers) => {
 
   # Mock up Image of the application
 
-  ```bash
+  \`\`\`bash
   ${appPic}
-  ```
+  \`\`\`
   ## Challenges
 
   While creating this application, some _challenges_ aroused: ${challenges}.
@@ -57,30 +57,30 @@ const generateReadme = (answers) => {
 
   ## Links to GitHub Repo & Application
 
-  ```md
+  \`\`\`md
   ![GitHub Repo Link](${gitHubLink})
   ![Link to Application] (${appLink})
-  ```
+  \`\`\`
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  `
+  `;
 
 
   var inquirer = require('inquirer');
   inquirer
     .prompt([
+      {
+        input: 
+
+
+
+
+
+      }
+
+
+
+
       /* Pass your questions in here */
     ])
     .then(answers => {
