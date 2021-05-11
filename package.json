@@ -1,0 +1,23 @@
+{
+  "name": "09-readme-generator",
+  "version": "1.0.0",
+  "description": "Read Me file generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adina-hc/09-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adina-hc/09-readme-generator/issues"
+  },
+  "homepage": "https://github.com/adina-hc/09-readme-generator#readme",
+  "keywords": [],
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
