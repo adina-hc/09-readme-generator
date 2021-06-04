@@ -40,7 +40,7 @@ Read Me file generator
   In the future, the application will include ${futureDev}.
 
 
-  ## Instructions for Installation
+  ## Installation instructions
 
   ${installInst}
 
