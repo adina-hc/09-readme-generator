@@ -1,13 +1,5 @@
-// Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// a. Function that returns the license link and leaves an empty string if none is selected
 
-// function renderLicenseBadge(license) {
-//   let license = ``![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)``;
-
-
-
-// Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'NONE'){
     return license = '';
@@ -17,10 +9,10 @@ function renderLicenseLink(license) {
   }
 }
 
-// Create a function that returns the license section of README
-// If there is no license, return an empty string
+// b. Function to render license based on user selection, if no license, it returns an empty string
 function renderLicenseSection(license) {
   // title with license section (give license section or nothing)
+  console.log(license);
   const mit = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   const apache = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   const gpl = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
@@ -36,18 +28,15 @@ function renderLicenseSection(license) {
   } else if (license == "BSD 3") {
       badge = bsd;     
   } else if(license == "None") {
-      badge = `no license provided`;
+      badge = `No license provided`;
   }
   return badge;
 };
 
-
-
-
-// Create a function to generate markdown for README
+// c. Function to generate markdown for README
 function generateMarkdown(data) {
   let license = renderLicenseSection(data.license)
-  return ` #${license}
+  return ` ${license}
 
   # ${data.projectName}
 
@@ -57,7 +46,7 @@ function generateMarkdown(data) {
 
   The motivation behind the development of this application was ${data.motivation}.
 
-  The application solves ${data.solves}, and what makes this project stand out are the following features ${data.features}.
+  The application includes the following features ${data.features}.
 
   Additional features that may be incorporated in the future: ${data.future}.
   

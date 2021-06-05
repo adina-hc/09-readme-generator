@@ -52,20 +52,6 @@ const answers = [
   },
   {
     type: 'input',
-    message: 'What does the application or project solve?',
-    name: 'solves',
-    // Validate entry
-    validate: (value) => {
-      if (value) {
-        return true;
-      }
-      else{
-        return 'You need to provide a solution or added value of the project';
-      }
-    }
-  },
-  {
-    type: 'input',
     message: 'What are the features?',
     name: 'features',
     // Validate entry

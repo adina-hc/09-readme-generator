@@ -1,5 +1,4 @@
 .vscode
 DS_Store/
-test
-node_modules
-licenses.txt
+node_modules/
+
