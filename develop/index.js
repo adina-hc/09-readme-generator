@@ -38,20 +38,6 @@ const answers = [
   },
   {
     type: 'input',
-    message: 'What was your motivation for developing this project?',
-    name: 'motivation',
-    // Validate entry
-    validate: (value) => {
-      if (value) {
-        return true;
-      }
-      else{
-        return 'Please provide your motivation';
-      }
-    }
-  },
-  {
-    type: 'input',
     message: 'What are the features?',
     name: 'features',
     // Validate entry
@@ -80,8 +66,8 @@ const answers = [
   },
   {
     type: 'input',
-    message: 'How do you install the application?',
-    name: 'installation',
+    message: 'You can install this application by:',
+    name: 'install',
     // Validate entry
     validate: (value) => {
       if (value) {
@@ -117,34 +103,6 @@ const answers = [
       }
       else{
         return 'You need to include an image of your app';
-      }
-    }
-  },
-  {
-    type: 'input',
-    message: 'What challenges did you face during the development of your application?:',
-    name: 'challenges',
-    // Validate entry
-    validate: (value) => {
-      if (value) {
-        return true;
-      }
-      else{
-        return 'Please add challenges';
-      }
-    }
-  },
-  {
-    type: 'input',
-    message: 'How did you work around or solutions to your challenges?',
-    name: 'challengeSolution',
-    // Validate entry
-    validate: (value) => {
-      if (value) {
-        return true;
-      }
-      else{
-        return 'Please describe how you overcame the challenges';
       }
     }
   },

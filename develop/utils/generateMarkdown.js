@@ -44,8 +44,6 @@ function generateMarkdown(data) {
   
   This application ${data.appDescription}.
 
-  The motivation behind the development of this application was ${data.motivation}.
-
   The application includes the following features ${data.features}.
 
   Additional features that may be incorporated in the future: ${data.future}.
@@ -65,7 +63,7 @@ function generateMarkdown(data) {
  
   ### Usage
 
-  This application works by ${data.usage}
+  The usage of this application: ${data.usage}
 
   The following image or video will provide with an example of the usage.
 
@@ -73,8 +71,6 @@ function generateMarkdown(data) {
   ${data.appPic}
   \`\`\`
 
-  While creating this application, some _challenges_ aroused: ${data.challenges}.
-  These challenges were resolved by ${data.challengeSolution}.
   Some of the lessons learned during the building process were ${data.lessonsLearned}.
 
   ### License

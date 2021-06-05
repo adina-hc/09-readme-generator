@@ -6,7 +6,8 @@ Developers need to have a high-quality README file for their projects on GitHub.
 This file includes information related to the app, what it is for, how to use, hot to install, how to report issues, and how to make contributions.
 The user can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-This application utilizes Node js, and it is invoked by using the following command:
+This application utilizes Node js, featuring inquirer and fs.
+The app is invoked by using the following command:
 
 ```bash
 node ./develop/index.js
@@ -23,7 +24,7 @@ On the running of the index.js file on the command line as described above, the 
     - Table of Contents
     - Installation
     - Usage
-    - License,
+    - License
     - Contributing
     - Tests
     - Questions
@@ -37,31 +38,22 @@ When the user clicks on the table of contents, it will route to the specific sec
 
 ## Application Demo
 
+The demo video can be found in the shared link provided.
+
+Mockup images are included:
+
+### Command Line
+![Command Line image with example of questions prompted](./assets/command-line.png)
+
+### Mock up README image
+![Example of new generated README file](./assets/New-README.png)
 
 
+## Link to GitHub
 
+[Link to GitHub Repo](https://github.com/adina-hc/09-readme-generator)
 
+## Repo and Demo Video
 
+[Link to demo video](https://drive.google.com/drive/folders/1D-9cPHVyrW9H6Qq0YSBa5KEURu6uFl4U?usp=sharing)
 
-
-
-
-
-
-
-
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
