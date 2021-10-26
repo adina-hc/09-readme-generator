@@ -51,7 +51,7 @@ Mockup images are included:
 
 ## Link to GitHub
 
-[Link to GitHub Repo](https://github.com/adina-hc/09-readme-generator)
+[Link to GitHub Repo](https://github.com/adina-hc/readme-generator)
 
 ## Repo and Demo Video
 
