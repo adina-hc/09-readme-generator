@@ -1,4 +1,4 @@
-# 09 - Professional README Generator
+# Professional README Generator
 
 ## Description
 
