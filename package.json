@@ -1,5 +1,5 @@
 {
-  "name": "09-readme-generator",
+  "name": "readme-generator",
   "version": "1.0.0",
   "description": "Read Me file generator",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adina-hc/09-readme-generator.git"
+    "url": "git+https://github.com/adina-hc/readme-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adina-hc/09-readme-generator/issues"
+    "url": "https://github.com/adina-hc/readme-generator/issues"
   },
-  "homepage": "https://github.com/adina-hc/09-readme-generator#readme",
+  "homepage": "https://github.com/adina-hc/readme-generator#readme",
   "keywords": [],
   "dependencies": {
     "inquirer": "^8.0.0"
